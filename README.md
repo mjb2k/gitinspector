@@ -4,7 +4,20 @@
 <h2>
   Changes in this fork for gitinspector:
 </h2>
+This fork makes the following additions<br></br>
+--supress: suppresses standard & blame information output by gitinspector<br></br>
+--blame: show blame information (on by default)<br></br>
+--standard: show standard information (on by default)<br></br>
+--per-branch: show commit information for each branch of a given repository (json/text only)<br></br>
+--per-tag: show commit information for each tag of a given repository (json/text only)<br></br>
+--per-file: show responsibility (ownership) of each file rather than -r which shows each authors highest ownership for their top 10 files (json/text only). 
 
+<h2>
+  TODO for this fork:
+</h2>
+Setup metrics data to showcase for per-branch and per-tag properly. 
+Add XML, and HTML based outputs for --per-branch, --per-tag, and --per-file.
+Fix any issues regarding json output.
 
 
 
