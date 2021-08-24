@@ -18,6 +18,7 @@ This fork makes the following additions<br></br>
 Setup metrics data to showcase for per-branch and per-tag properly. 
 Add XML, and HTML based outputs for --per-branch, --per-tag, and --per-file.
 Fix any issues regarding json output.
+Modify help file to reflect new changes.
 
 
 
